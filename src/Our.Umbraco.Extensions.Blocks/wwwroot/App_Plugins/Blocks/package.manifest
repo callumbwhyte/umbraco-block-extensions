@@ -1,0 +1,8 @@
+{
+  "id": "Our.Umbraco.Extensions.Blocks",
+  "name": "Umbraco Block Extensions",
+  "version": "1.0.0",
+  "javascript": [
+    "/App_Plugins/Blocks/backoffice/pickerBlock.controller.js"
+  ]
+}
