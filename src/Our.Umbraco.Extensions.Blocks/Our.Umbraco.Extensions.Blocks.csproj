@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
   <PropertyGroup>
     <TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
     <LangVersion>latest</LangVersion>
@@ -16,6 +16,8 @@
     <RepositoryType>Git</RepositoryType>
     <PackageTags>umbraco blocks umbraco-marketplace</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+    <StaticWebAssetBasePath>/</StaticWebAssetBasePath>
   </PropertyGroup>
   <ItemGroup>
     <None Include="..\..\LICENSE.md" Pack="true" PackagePath="docs" />
